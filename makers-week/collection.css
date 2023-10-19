@@ -116,6 +116,15 @@
     display: flex;
 }
 
+.layout-collection__main-wrapper .collection-story img {
+    border-radius: 12px;
+}
+
+.layout-collection__main-wrapper .collection-story .paragraph {
+    font-size: 16px;
+    line-height: 21px;
+}
+
 .layout-collection__main-wrapper aside {
     width: 216px;
 }
