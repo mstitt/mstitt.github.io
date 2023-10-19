@@ -9,7 +9,7 @@ lists.forEach((item) => {
 });
 
 window.onscroll = () => {
-    section.forEach((sec) => {
+    collectionSections.forEach((sec) => {
         let top = window.scrollY;
         let offset = sec.offsetTop;
         let height = sec.offsetHeight;
