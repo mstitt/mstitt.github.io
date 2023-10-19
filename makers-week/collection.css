@@ -116,7 +116,7 @@
     display: flex;
 }
 
-.layout-collection__main-wrapper .collection-story img {
+.layout-collection__main-wrapper .collection-story article img {
     border-radius: 12px;
 }
 
