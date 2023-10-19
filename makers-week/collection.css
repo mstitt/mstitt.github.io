@@ -92,14 +92,31 @@
 .layout-collection__main-wrapper aside .sidebar {
     position: sticky;
     top: 40px;
+    border-top: 2px solid #000;
+}
+
+.layout-collection__main-wrapper aside .sidebar h4 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1.68px;
+    text-transform: uppercase;
+    padding: 16px 0;
+    margin: 0;
+}
+
+.layout-collection__main-wrapper aside .sidebar p {
+    padding: 0 0 16px 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
 }
 
 .layout-collection__main-wrapper aside ol {
     list-style: none;
     margin: 0;
     padding: 0;
-    border-top: 2px solid #000;
-    border-bottom: 2px solid #000;
 }
 
 .layout-collection__main-wrapper aside ol li {
@@ -113,8 +130,8 @@
     transform: all 0.5s ease-in-out;
 }
 
-.layout-collection__main-wrapper aside ol li:last-child {
-    border-bottom: 0;
+.layout-collection__main-wrapper aside ol li:first-child {
+    border-top: 1px solid #9ba1a9;
 }
 
 .layout-collection__main-wrapper aside ol li::before {
