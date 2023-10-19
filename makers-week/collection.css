@@ -130,6 +130,10 @@
     padding-top: 0;
 }
 
+.layout-collection__main-wrapper .collection-story:last-child {
+    border-bottom: 0;
+}
+
 .layout-collection__main-wrapper .collection-story .paragraph {
     font-size: 16px !important;
     line-height: 21px;
