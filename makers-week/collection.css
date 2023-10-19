@@ -123,6 +123,16 @@
     align-self: flex-start;
     justify-content: center;
     margin-right: 10px;
+    background: transparent;
+}
+
+.layout-collection__main-wrapper aside ol li.active {
+    font-weight: 700;
+}
+
+.layout-collection__main-wrapper aside ol li.active::before {
+    background: #E02020;
+    color: #fff;
 }
 
 .layout-collection__main-wrapper aside ol li a {
