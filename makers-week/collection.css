@@ -228,7 +228,7 @@
     height: 0;
     padding-bottom: 56.25%;
     position: relative;
-    background-image: url(/media/sites/cnn/video-placeholder.svg);
+    background-image: url(media/sites/cnn/video-placeholder.svg);
 }
 
 .fave-player-container {
@@ -282,4 +282,56 @@ div[data-component-name=video-resource] .ad-feedback-link-container, div[data-co
 
 .headline.headline--has-lowertext{
     max-width: 100% !important;
+}
+
+.cmYsCe {
+    display: flex;
+    flex-direction: column;
+    font-family: CNN, "Helvetica Neue", Helvetica, Arial, Utkal, sans-serif;
+    font-size: initial;
+    font-weight: normal;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    left: 0px;
+    line-height: initial;
+    overflow: hidden;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    transition: background-color 0.5s ease 0s;
+    z-index: 3;
+    height: 100% !important;
+    max-height: 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.bphWhp {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+
+.cmYsCe button {
+    align-self: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: initial;
+    line-height: initial;
+    padding: 0px;
+}
+
+.bphWhp .sc-iAyFgw svg {
+    height: 96px;
+    width: 96px;
+    opacity: 0.8;
+    transition: opacity 0.25s ease 0s;
+    fill: rgb(255, 255, 255);
 }
