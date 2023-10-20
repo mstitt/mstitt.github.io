@@ -245,6 +245,11 @@
     background-image: url(media/sites/cnn/video-placeholder.svg);
 }
 
+.video-resource__description {
+    font-size: 18px !important;
+    line-height: 30px !important;
+}
+
 .fave-player-container {
     background-color: #000000;
     height: 100%;
