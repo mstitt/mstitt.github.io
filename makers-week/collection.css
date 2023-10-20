@@ -167,6 +167,20 @@
     line-height: 21px;
 }
 
+.layout-collection__main-wrapper aside .sidebar .sidebar-explore {
+    text-align: center;
+}
+
+.layout-collection__main-wrapper aside .sidebar .sidebar-explore a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+}
+
 .layout-collection__main-wrapper aside ol {
     list-style: none;
     margin: 0;
