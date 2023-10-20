@@ -134,9 +134,9 @@
     border-bottom: 0;
 }
 
-.layout-collection__main-wrapper .collection-story .paragraph {
-    font-size: 16px !important;
-    line-height: 21px;
+.layout-collection__main-wrapper .collection-story p.paragraph {
+    font-size: 18px !important;
+    line-height: 30px !important;
 }
 
 .layout-collection__main-wrapper aside {
